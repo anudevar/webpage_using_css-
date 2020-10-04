@@ -1,0 +1,49 @@
+/* color properties */
+/* color background-color */
+#first {
+  color: lightgrey;
+  background-color: chocolate;
+}
+/* rgb */
+/* rgba 0-1 opacity transparency */
+#second {
+  color: rgb(45, 10, 34);
+  background: rgba(0, 0, 0, 1);
+}
+/* a means transperancy it varies from 0 to 1 */
+body {
+  background: rgb(100, 100, 45);
+}
+/* font-size, width, height, pixels */
+h1 {
+  font-size: 60px;
+  width: 1000px;
+  background: blue;
+}
+.outer {
+  width: 500px;
+  height: 500px;
+  background: blue;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  background: red;
+}
+/* vh- height -percent of screen
+vw - width - percent of the screen */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}

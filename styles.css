@@ -1,0 +1,72 @@
+/* element selectors */
+h1 {
+  color: blue;
+  font-size: 4rem;
+}
+h2 {
+  color: brown;
+}
+/* css rule */
+/* selectors */
+/* declaration block from braces to another braces */
+/* in declartion
+color is property
+after each and every property there should be semicolon, if not property will execute, shows error 
+value is blue here*/
+/* p {
+  color: grey;
+} */
+/* body {
+  color: indigo;
+} */
+
+/* ID */
+#title {
+  color: lawngreen;
+  background: black;
+}
+#footer {
+  color: red;
+  background-color: grey;
+}
+
+/* class selecctors */
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background: grey;
+}
+#heading {
+  font-size: 40px;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* DIV SPAN */
+div {
+  color: yellow;
+  background: red;
+}
+
+span {
+  text-transform: uppercase;
+}
+/* inheritance 
+parent element will not chnage
+untill unless you design specific child element*/
+/* last rule and specificity, universal sector */
+p {
+  color: teal;
+}
+
+p {
+  color: blue;
+}
+/* in this case it takes command of last one alone not first command
+paragraph -paragraph
+claass -paragrah classs command will take 
+universal selector'+
+*'  least importance*/

@@ -1,0 +1,14 @@
+h1 {
+  background: red;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-right: 50px;
+  padding-left: 25px;
+  margin-right: 50px;
+}
+p {
+  background: blue;
+  padding: 50px;
+  border-style: solid;
+  border-color: chartreuse;
+}

@@ -1,0 +1,39 @@
+div {
+  height: 400px;
+  color: red;
+}
+.big-img {
+  background: url("./big.jpeg");
+  background-repeat: round;
+  background-size: cover;
+}
+.small-img {
+  background: url("./small.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url("./folder.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* got them customized from this website https://cssgradient.io/ */
+.colorzila {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(208, 101, 62, 1) 10%,
+    rgba(9, 9, 121, 1) 37%,
+    rgba(7, 153, 34, 1) 52%,
+    rgba(200, 178, 2, 1) 88%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.banner {
+  border: 5px solid;
+  padding: 10px;
+}
+img {
+  float: left;
+}
